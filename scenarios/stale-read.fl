@@ -1,0 +1,7 @@
+# Replica 2 misses a write while isolated; recovery does not repair its data.
+down 2
+write 42
+tick 10
+up 2
+read
+tick 10
