@@ -91,7 +91,7 @@ See [architecture and limits](docs/architecture.md), [Russian walkthrough](docs/
 
 This is a small model-checking-inspired simulator, not a production database, consensus implementation, or exhaustive model checker. Its invariant is weaker than linearizability. Random searches are evidence, not a proof; quorum intersection explains why the safe policy works **under the documented model assumptions**. It has no real sockets, persistence, anti-entropy, clock-skew handling, or multiprocess execution.
 
-Built with AI assistance (Codex). The commit history separates implementation, visualization, and project verification. If you use this in a portfolio, reproduce the failure yourself and be ready to explain the event ordering, the quorum argument, and the model's limitations.
+To explore the design, reproduce the failure, inspect the event ordering, and compare the quorum policies. See the architecture document for the model assumptions and limitations.
 
 ## License
 
